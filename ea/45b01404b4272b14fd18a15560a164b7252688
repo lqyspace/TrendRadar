@@ -1,0 +1,34 @@
+.gitignore
+  s_d52de24494f2c5::t_9f2eeaa5ac1800 45-46
+  s_d52de24494f2c5::t_2eaf9e537fb039 37,50,52-53
+  s_d52de24494f2c5::t_35fa56b9e137e9 1-36,38-44,47-49,51
+config/timeline.yaml
+  h_56bbed01fe94a1 172
+config/config.yaml
+  h_56bbed01fe94a1 120-175,180-183,236
+docker/.env
+  h_56bbed01fe94a1 20,60,62,65,67,93
+docker/.env.example
+  s_d52de24494f2c5::t_c525df1f0582a6 1-72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.6",
+  "base_commit_sha": "ea45b01404b4272b14fd18a15560a164b7252688",
+  "prompts": {},
+  "humans": {
+    "h_56bbed01fe94a1": {
+      "author": "lqyspace <15543495640m@sina.cn>"
+    }
+  },
+  "sessions": {
+    "s_d52de24494f2c5": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "8340498c-1095-4cae-9b6d-2c33efc6ec8d",
+        "model": "unknown"
+      },
+      "human_author": "lqyspace <15543495640m@sina.cn>"
+    }
+  }
+}
