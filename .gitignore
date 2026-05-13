@@ -1,0 +1,53 @@
+# =========================
+# Python cache / build
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Editor / OS
+# =========================
+.DS_Store
+*.swp
+*.swo
+
+# =========================
+# Runtime outputs (TrendRadar)
+# =========================
+output/news/*.db
+output/rss/*.db
+output/html/
+output/latest/
+output/*.html
+
+# =========================
+# Local secrets / env
+# =========================
+docker/.env
+.env
+.env.*
+!.env.example
+!docker/.env.example
+
+# =========================
+# Personal custom configs
+# Keep directory structure via tracked .gitkeep files.
+# =========================
+config/custom/ai/my_*.txt
+config/custom/keyword/my_*.txt
